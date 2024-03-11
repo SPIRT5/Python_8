@@ -79,8 +79,6 @@ def copy_line():
         print("Указанный файл не найден.")
     except IOError:
         print("Ошибка ввода-вывода при работе с файлом.")
-    
-
 
 def ui ():
         with open("phonebook.txt", "a", encoding="UTF-8"):
@@ -118,10 +116,6 @@ def ui ():
                 copy_line()  
             else: 
                 print("Всего доброго!")
-
-
-        
-
 
 
 ui () 
